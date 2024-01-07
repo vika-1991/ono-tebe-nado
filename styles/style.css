@@ -99,8 +99,8 @@
     display: flex;
     align-content: space-between;
     align-items: center;
-    gap: 110px;
-    padding: 135px 0px 51px 78px;
+    gap: 90px;
+    padding: 140px 0px 51px 78px;
     z-index: 1;  
 }
 
