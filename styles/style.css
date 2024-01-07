@@ -1,5 +1,5 @@
 .header {
-    padding: 92px 24px 96px;
+    padding: 92px 24px 76px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,6 +7,7 @@
 }
 
 .header__link-list {
+
     font-size: 18px;
     list-style-type: circle;
     display: flex;
