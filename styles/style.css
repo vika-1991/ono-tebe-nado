@@ -7,7 +7,6 @@
 }
 
 .header__link-list {
-
     font-size: 18px;
     list-style-type: circle;
     display: flex;
@@ -24,6 +23,7 @@
 .header__logo {
     display: block;
     width: 148px;
+    height: 105px;
 }
 
 .header__contacts-list-item {
