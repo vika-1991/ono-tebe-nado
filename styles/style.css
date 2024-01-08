@@ -130,7 +130,7 @@
 }
 
 .lots {
-    padding: 179px 0px 0px 24px;
+    padding: 179px 24px 0px 24px;
 }
 
 .lots__heading {
@@ -206,6 +206,11 @@
     font-weight: 400;
     padding-top: 100px;
     padding-left: 40px;
+}
+
+.about{
+    display: grid;
+    padding: 146px 24px 0px 24px;
 }
 
 .footer {
