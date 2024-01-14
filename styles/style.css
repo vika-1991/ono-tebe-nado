@@ -1,5 +1,5 @@
 .header {
-    padding: 92px 15px 96px;
+    padding: 92px 24px 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@
 
 .header__logo {
     display: flex;
-    justify-content: left;
+    align-items: start;
     width: 148px;
     height: 105px;
 }
@@ -48,7 +48,7 @@
 .header__address,
 .footer__address {
     color: #000;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -84,7 +84,7 @@
 .cover__title {
     color: #fff;
     font-size: 100px;
-    font-family: Raleway, 'sans-serif';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -209,7 +209,7 @@
     padding: 51px 40px 48px 40px;
 }
 
-.card_link {
+.card-link {
     text-decoration: none;
 }
 
@@ -250,10 +250,10 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-top: 30px;
+    display: inline-block;
     text-decoration: none;
-    display: block;
     border-bottom: 2px solid currentColor;
 
 }
@@ -264,8 +264,9 @@
 
 .about__column {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+    grid-template-columns: 334px auto;
+    margin-top: 34px;
+    gap: 25px;
 }
 
 .about__logo {
@@ -276,6 +277,7 @@
     height: 240px;
     border-radius: 50%;
     background-color: #000;
+    margin-left: 48px;
 }
 
 .about__logo-image {
@@ -284,17 +286,27 @@
 }
 
 .about__title {
+    display: block;
     color: #000;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 101px;
+    margin-bottom: 100px;
 }
-.about__text{
-    display: flex;
-    flex-direction: column;
+
+.about__text {
+    display: block;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.2px;
     gap: 24px;
     
 }
