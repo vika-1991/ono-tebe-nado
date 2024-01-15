@@ -9,7 +9,8 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-weight: 400; /* основной размер шрифта */
-  background-color:#FFF; /* основной цвет подложки*/
+  background-color:#FFF; /* основной цвет подложки */
+  font-style: normal;
 }
 
 h1,
