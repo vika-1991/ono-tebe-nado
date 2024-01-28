@@ -149,7 +149,7 @@ img {
     font-size: 22px;
     font-style: normal;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     word-spacing: 18px;
     line-height: 28px;
@@ -238,7 +238,7 @@ img {
 
 .card_title {
     font-size: 22px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
     position: relative;
